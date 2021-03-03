@@ -53,7 +53,7 @@ form button:hover{
   flex: 1;
 }
 .trash-btn, .complete-btn{
-  background: #d6836c;
+  background: #f8896b;
   color: white;
   border: none;
   padding: 1rem;
@@ -76,4 +76,37 @@ form button:hover{
 .fall{
 transform: translateY(8rem) rotateZ(20deg);
 opacity: 0;
+}
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+.select{
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+select{
+  color: #f8896b;
+  width: 10rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+.select::after{
+  content: "\25BC";
+  position: absolute;
+  background: #f8896b;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.select:hover::after{
+  color: #f8896b;
+  background: white;
 }
