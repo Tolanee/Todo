@@ -1,4 +1,8 @@
- body {
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+} 
+body {
   background-image: linear-gradient(120deg, #f3cc4b, #f8896b);
   color: white;
   font-family: "poppins",sans-serif;
@@ -53,7 +57,7 @@ form button:hover{
   flex: 1;
 }
 .trash-btn, .complete-btn{
-  background: #d6836c;
+  background: #f8896b;
   color: white;
   border: none;
   padding: 1rem;
