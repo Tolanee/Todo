@@ -81,7 +81,7 @@ form button:hover{
 transform: translateY(8rem) rotateZ(20deg);
 opacity: 0;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1024px){
   .todo-input{
     width: 70vw;
   }
