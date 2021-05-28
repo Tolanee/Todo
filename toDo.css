@@ -78,9 +78,14 @@ form button:hover{
   opacity: 0.5;
 }
 .fall{
-transform: translateY(8rem) rotateZ(20deg);
-opacity: 0;
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;
+  }
+
+.fallD{
+  display: none;
 }
+
 @media screen and (max-width: 1024px){
   .todo-input{
     width: 70vw;
